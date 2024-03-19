@@ -3,11 +3,10 @@
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/okp4/ontology/v$major/schema/credential/governance/text/"
     ],
-    "type": "VerifiableCredential",
+    "type": ["VerifiableCredential","GovernanceTextCredential"],
     "id": "https://w3id.org/okp4/ontology/v$major/schema/credential/governance/text/c29835be-9d4c-4a9a-8525-145bc85b6f95",
     "credentialSubject": {
         "id": "did:key:zQ3shunN7us5oKNYKKzprW8nP5HAoTf4t2Fxyudho5zMAR1PQ",
-        "type": "GovernanceTextCredential",
         "isGovernedBy": {
             "type": "GovernanceText",
             "fromGovernance": "cosmwasm:{contract_name}:{contract_address}?query={contract_query}",
